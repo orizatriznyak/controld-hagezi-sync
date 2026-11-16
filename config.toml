@@ -65,7 +65,7 @@ Relaxed    = [
   "Badware Hoster",
   "Most Abused TLDs",
   "Amazon tracker",
-  "Apple tracker"
+  "Apple tracker",
   "Huawei tracker",
   "LG webOS tracker",
   "Microsoft tracker",
@@ -77,14 +77,14 @@ Relaxed    = [
   "Spam TLDS",
   "Referral Allow",
   "META Tracker Allow",
-  "Microsoft Allow"
+  "Microsoft Allow",
   "Known issues Allow"
 ]
 Hardened = [
   "Badware Hoster",
   "Most Abused TLDs",
   "Amazon tracker",
-  "Apple tracker"
+  "Apple tracker",
   "Huawei tracker",
   "LG webOS tracker",
   "Microsoft tracker",
@@ -92,6 +92,6 @@ Hardened = [
   "TikTok-A tracker",
   "Xiaomi tracker",
   "Vivo tracker",
-  "Oppo / Realme tracker"
+  "Oppo / Realme tracker",
   "Spam TLDS"
 ]
