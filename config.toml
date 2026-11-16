@@ -25,7 +25,7 @@ dry_run = false
 
 [profiles]
 # Exact names of your ControlD profiles (case-sensitive).
-names = ["Hardened", "Relaxed"]
+names = ["Caisee", "Koetche", "SunshineCity", "NeverSauna", "Travel", "Tzeemair"]
 
 # =============================================================================
 # FOLDER DEFINITIONS
@@ -61,7 +61,7 @@ names = ["Hardened", "Relaxed"]
 # =============================================================================
 
 [profile_folders]
-Relaxed    = [
+Caisee = [
   "Badware Hoster",
   "Most Abused TLDs",
   "Amazon tracker",
@@ -74,13 +74,69 @@ Relaxed    = [
   "Xiaomi tracker",
   "Vivo tracker",
   "Oppo / Realme tracker",
-  "Spam TLDS",
-  "Referral Allow",
-  "META Tracker Allow",
-  "Microsoft Allow",
-  "Known issues Allow"
+  "Spam TLDS"
 ]
-Hardened = [
+Koetche = [
+  "Badware Hoster",
+  "Most Abused TLDs",
+  "Amazon tracker",
+  "Apple tracker",
+  "Huawei tracker",
+  "LG webOS tracker",
+  "Microsoft tracker",
+  "Samsung tracker",
+  "TikTok-A tracker",
+  "Xiaomi tracker",
+  "Vivo tracker",
+  "Oppo / Realme tracker",
+  "Spam TLDS"
+]
+NeverSauna = [
+  "Badware Hoster",
+  "Most Abused TLDs",
+  "Amazon tracker",
+  "Apple tracker",
+  "Huawei tracker",
+  "LG webOS tracker",
+  "Microsoft tracker",
+  "Samsung tracker",
+  "TikTok-A tracker",
+  "Xiaomi tracker",
+  "Vivo tracker",
+  "Oppo / Realme tracker",
+  "Spam TLDS"
+]
+SunshineCity = [
+  "Badware Hoster",
+  "Most Abused TLDs",
+  "Amazon tracker",
+  "Apple tracker",
+  "Huawei tracker",
+  "LG webOS tracker",
+  "Microsoft tracker",
+  "Samsung tracker",
+  "TikTok-A tracker",
+  "Xiaomi tracker",
+  "Vivo tracker",
+  "Oppo / Realme tracker",
+  "Spam TLDS"
+]
+Tzeemair = [
+  "Badware Hoster",
+  "Most Abused TLDs",
+  "Amazon tracker",
+  "Apple tracker",
+  "Huawei tracker",
+  "LG webOS tracker",
+  "Microsoft tracker",
+  "Samsung tracker",
+  "TikTok-A tracker",
+  "Xiaomi tracker",
+  "Vivo tracker",
+  "Oppo / Realme tracker",
+  "Spam TLDS"
+]
+Travel = [
   "Badware Hoster",
   "Most Abused TLDs",
   "Amazon tracker",
