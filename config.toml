@@ -25,7 +25,7 @@ dry_run = false
 
 [profiles]
 # Exact names of your ControlD profiles (case-sensitive).
-names = ["Tesla", "Kids", "Friends", "Adults"]
+names = ["Hardened", "Relaxed"]
 
 # =============================================================================
 # FOLDER DEFINITIONS
@@ -37,9 +37,21 @@ names = ["Tesla", "Kids", "Friends", "Adults"]
 [folders]
 "Badware Hoster"         = "https://raw.githubusercontent.com/hagezi/dns-blocklists/main/controld/badware-hoster-folder.json"
 "Most Abused TLDs"       = "https://raw.githubusercontent.com/hagezi/dns-blocklists/main/controld/spam-tlds-combined-folder.json"
-"No Safesearch Support"  = "https://raw.githubusercontent.com/hagezi/dns-blocklists/main/controld/nosafesearch-folder.json"
-"Referral Allow" = "https://raw.githubusercontent.com/hagezi/dns-blocklists/main/controld/referral-allow-folder.json"
+"Amazon tracker"         = "https://raw.githubusercontent.com/hagezi/dns-blocklists/main/controld/native-tracker-amazon-folder.json"
+"Apple tracker"          = "https://raw.githubusercontent.com/hagezi/dns-blocklists/main/controld/native-tracker-apple-folder.json.json"
+"Huawei tracker"         = "https://raw.githubusercontent.com/hagezi/dns-blocklists/main/controld/native-tracker-huawei-folder.json"
+"LG webOS tracker"       = "https://raw.githubusercontent.com/hagezi/dns-blocklists/main/controld/native-tracker-lgwebos-folder.json.json"
+"Microsoft tracker"      = "https://raw.githubusercontent.com/hagezi/dns-blocklists/main/controld/native-tracker-microsoft-folder.json"
+"Samsung tracker"        = "https://raw.githubusercontent.com/hagezi/dns-blocklists/main/controld/native-tracker-samsung-folder.json"
+"TikTok-A tracker"       = "https://raw.githubusercontent.com/hagezi/dns-blocklists/main/controld/native-tracker-tiktok-aggressive-folder.jsonn"
+"Xiaomi tracker"         = "https://raw.githubusercontent.com/hagezi/dns-blocklists/main/controld/native-tracker-xiaomi-folder.json"
+"Vivo tracker"           = "https://raw.githubusercontent.com/hagezi/dns-blocklists/main/controld/native-tracker-vivo-folder.json"
+"Oppo / Realme tracker"  = "https://raw.githubusercontent.com/hagezi/dns-blocklists/main/controld/native-tracker-oppo-realme-folder.json"
+"Spam TLDS"              = "https://raw.githubusercontent.com/hagezi/dns-blocklists/main/controld/spam-tlds-combined-folder.json.json"
+"Referral Allow"         = "https://raw.githubusercontent.com/hagezi/dns-blocklists/main/controld/referral-allow-folder.json"
 "META Tracker Allow"     = "https://raw.githubusercontent.com/hagezi/dns-blocklists/main/controld/meta-tracker-allow-folder.json"
+"Microsoft Allow"        = "https://raw.githubusercontent.com/hagezi/dns-blocklists/main/controld/microsoft-allow-folder.json"
+"Known issues Allow"     = "https://raw.githubusercontent.com/hagezi/dns-blocklists/main/controld/ultimate-known_issues-allow-folder.json"
 
 # =============================================================================
 # PROFILE → FOLDER MAPPINGS
@@ -49,22 +61,37 @@ names = ["Tesla", "Kids", "Friends", "Adults"]
 # =============================================================================
 
 [profile_folders]
-Tesla   = ["Badware Hoster", "Most Abused TLDs"]
-Kids    = [
+Relaxed    = [
   "Badware Hoster",
   "Most Abused TLDs",
-  "No Safesearch Support",
-  "Referral Allow"
-]
-Friends = [
-  "Badware Hoster",
-  "Most Abused TLDs",
+  "Amazon tracker",
+  "Apple tracker"
+  "Huawei tracker",
+  "LG webOS tracker",
+  "Microsoft tracker",
+  "Samsung tracker"
+  "TikTok-A tracker",
+  "Xiaomi tracker",
+  "Vivo tracker",
+  "Oppo / Realme tracker"
+  "Spam TLDS",
   "Referral Allow",
-  "META Tracker Allow"
+  "META Tracker Allow",
+  "Microsoft Allow"
+  "Known issues Allow"
 ]
-Adults  = [
+Hardened = [
   "Badware Hoster",
   "Most Abused TLDs",
-  "Referral Allow",
-  "META Tracker Allow"
+  "Amazon tracker",
+  "Apple tracker"
+  "Huawei tracker",
+  "LG webOS tracker",
+  "Microsoft tracker",
+  "Samsung tracker"
+  "TikTok-A tracker",
+  "Xiaomi tracker",
+  "Vivo tracker",
+  "Oppo / Realme tracker"
+  "Spam TLDS"
 ]
