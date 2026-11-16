@@ -69,11 +69,11 @@ Relaxed    = [
   "Huawei tracker",
   "LG webOS tracker",
   "Microsoft tracker",
-  "Samsung tracker"
+  "Samsung tracker",
   "TikTok-A tracker",
   "Xiaomi tracker",
   "Vivo tracker",
-  "Oppo / Realme tracker"
+  "Oppo / Realme tracker",
   "Spam TLDS",
   "Referral Allow",
   "META Tracker Allow",
@@ -88,7 +88,7 @@ Hardened = [
   "Huawei tracker",
   "LG webOS tracker",
   "Microsoft tracker",
-  "Samsung tracker"
+  "Samsung tracker",
   "TikTok-A tracker",
   "Xiaomi tracker",
   "Vivo tracker",
