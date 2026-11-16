@@ -74,7 +74,11 @@ Caisee = [
   "Xiaomi tracker",
   "Vivo tracker",
   "Oppo / Realme tracker",
-  "Spam TLDS"
+  "Spam TLDS",
+  "Referral Allow",
+  "META Tracker Allow",
+  "Microsoft Allow",
+  "Known issues Allow"
 ]
 Koetche = [
   "Badware Hoster",
@@ -90,7 +94,11 @@ Koetche = [
   "Vivo tracker",
   "Oppo / Realme tracker",
   "Spam TLDS"
-]
+  "Referral Allow",
+  "META Tracker Allow",
+  "Microsoft Allow",
+  "Known issues Allow"
+  ]
 NeverSauna = [
   "Badware Hoster",
   "Most Abused TLDs",
@@ -105,6 +113,10 @@ NeverSauna = [
   "Vivo tracker",
   "Oppo / Realme tracker",
   "Spam TLDS"
+  "Referral Allow",
+  "META Tracker Allow",
+  "Microsoft Allow",
+  "Known issues Allow"
 ]
 SunshineCity = [
   "Badware Hoster",
@@ -120,6 +132,10 @@ SunshineCity = [
   "Vivo tracker",
   "Oppo / Realme tracker",
   "Spam TLDS"
+  "Referral Allow",
+  "META Tracker Allow",
+  "Microsoft Allow",
+  "Known issues Allow"
 ]
 Tzeemair = [
   "Badware Hoster",
@@ -135,6 +151,10 @@ Tzeemair = [
   "Vivo tracker",
   "Oppo / Realme tracker",
   "Spam TLDS"
+  "Referral Allow",
+  "META Tracker Allow",
+  "Microsoft Allow",
+  "Known issues Allow"
 ]
 Travel = [
   "Badware Hoster",
@@ -150,4 +170,8 @@ Travel = [
   "Vivo tracker",
   "Oppo / Realme tracker",
   "Spam TLDS"
+  "Referral Allow",
+  "META Tracker Allow",
+  "Microsoft Allow",
+  "Known issues Allow"
 ]
